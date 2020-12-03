@@ -1,0 +1,20 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Searched Entries
+{% endblock %}
+
+{% block body %}
+
+    {% if filtered_entries|length > 0 %}
+    <h1>Matched Entries:</h1>
+    <ul>
+        {% for entry in filtered_entries %}
+            <h3><li><a href="{% url 'encyclopedia:entry_url' entry %}">{{entry}}</a></li></h3>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <h1>No matched entries for this query!</h1>
+{% endif %}
+
+{% endblock %}
