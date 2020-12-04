@@ -1,9 +1,9 @@
 ﻿# wiki-django
 
 
-* A wiki web app where you can search for a keyword and start reading
+* A wiki web app where you can search for articles to read
 
-* with this app you can create your own articles for others to read 
+* Also you can create your own articles for others to read 
 
 Usage:
 
