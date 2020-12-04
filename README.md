@@ -5,7 +5,7 @@
 
 * with this app you can create your own articles for others to read 
 
-- Usage:
+Usage:
 
 Follow these commands:
 
